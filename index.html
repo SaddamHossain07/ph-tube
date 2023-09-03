@@ -5,30 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PH Tube</title>
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
 
     <!-- link for daisyUI  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
 <body>
     <!-- header section  -->
     <header>
         <section class="w-11/12 bg-blue-300 mx-auto border-b-4">
-            <div class="navbar bg-base-100 py-12">
-                <div class="navbar-start">
-                    <img height="32px" src="./images/Logo.png" alt="">
-                </div>
-                <div class="navbar-center">
-                    <button class="text-xl font-medium bg-gray-300 px-6 rounded py-2">Sort by view</button>
-                </div>
-                <div class="navbar-end">
-                    <button class="text-xl font-medium text-white bg-red-500 px-6 py-2 rounded">Blog</button>
-                </div>
+            <div class="bg-base-100 py-12 flex gap-4 flex-col md:flex-row items-center justify-between">
+                <img src="./images/Logo.png" alt="">
+                <button class="text-xl font-medium bg-gray-300 px-6 rounded py-2">Sort by view</button>
+                <button class="text-xl font-medium text-white bg-red-500 px-6 py-2 rounded">Blog</button>
             </div>
         </section>
     </header>
+
 
     <!-- main section  -->
     <main>
@@ -37,12 +32,13 @@
 
         </section>
 
+
         <!-- card section  -->
         <section id="post-container" class="w-11/12 mx-auto gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 
         </section>
-
     </main>
+
 
     <!-- connecting javaScript -->
     <script src="./js/index.js"></script>
