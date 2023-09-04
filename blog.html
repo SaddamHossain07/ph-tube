@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+
+    <!-- link for daisyUI  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="border-2 m-12 rounded-xl p-12">
+        <h3 class="text-3xl font-bold text-red-500 mb-8">The scope of var let and const</h3>
+        <p>var, let and const are the keywords of javaScript used for declaring a variable. let and const both are come
+            with
+            ES6. <br>
+            The value of a variable declared with var and let can be updated. var can be re-assigned of re-declared also
+            where let can not. The value will never be changed when the variable declared with const and never be
+            re-declared. <br>
+            <br>
+            <strong>Scope:</strong> In javaScript scope means where the variable are available to use. <br>
+            <br>
+            1. Scope of var : var is global and function scope. Global scope is when the variable declared outside of
+            the
+            function and can be used from anywhere, on the other hand function scope means the variable is declared
+            inside
+            of a function and can be used only inside of this function. <br> Note: var is hoisted to the top of it's
+            scope
+            and hold a value of undefined. <br><br>
+
+            2. Scope of let and const : let and const both are block scope. Block scope is a part of code inside the
+            curly
+            braces {}. Everything inside curly braces is a block. when a variable declared inside this block, it can be
+            used
+            only inside of this block.
+        </p>
+    </section>
+
+    <section class="border-2 m-12 rounded-xl p-12">
+        <h3 class="text-3xl font-bold text-red-500 mb-8">use case of 'null' and 'undefined'</h3>
+        <p><strong>null</strong><br>
+            When a variable is assigned 'null' as the value, it returns an object with no value, it means the value is
+            empty
+            or blank.
+            Null is a privitive type of data in javaScript.
+            <br>
+            <br>
+            <strong>undefined</strong><br>
+            1. When we declared a variable but not assigned any value yet, javaScript set a value and it returns
+            undefined.
+            <br>
+            2. while calling a function without passing any arguments for the parameters, parameters set the value as
+            'undefined'. When a function does not return any value, it returns 'undefined'.
+        </p>
+    </section>
+    <section class="border-2 m-12 rounded-xl p-12">
+        <h3 class="text-3xl font-bold text-red-500 mb-8">What do you mean by REST API?</h3>
+        <p>REST means Representational State Transfer and API means Application Programming Interface, in short REST API
+            or
+            RESTful API. <br>
+            REST API is a set of architectural principles or style for designing and interacting with web service. The
+            REST
+            API communicate the client with the database, while performing it is ensured the security, control and
+            authentication. When a client request is made via RESTful API, it delivered the data in JSON or other
+            format.
+        </p>
+
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

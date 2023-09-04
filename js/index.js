@@ -80,5 +80,9 @@ const handleClick = async (categoryId) => {
 }
 
 
+function blogPage() {
+    window.location = 'blog.html'
+}
+
 loadCategory()
 handleClick('1000')
